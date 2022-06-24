@@ -136,7 +136,7 @@ audio.addEventListener('timeupdate', () => {
     console.log("Audio current time is:", audio.currentTime);
     console.log("Audio duration is:", audio.duration);
     let songRangeValue = parseInt((audio.currentTime / audio.duration) * 100);
-    songRange.value = audio.currentTime || 0;
+    songRange.value = songRangeValue || 0;
 })
 songRange.addEventListener('change', () => {
     audio.currentTime = songRange.value * audio.duration / 100;
