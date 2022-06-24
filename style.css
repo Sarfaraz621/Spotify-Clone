@@ -1,0 +1,115 @@
+nav
+{
+    background-color: black; 
+}
+*
+{
+    margin: 0;
+    pad: 0;
+}
+body
+{
+    background-color: aquamarine;
+}
+li
+{
+    color: whitesmoke;
+    list-style-type:none;
+    margin:0 12px;
+}
+ul
+{
+    display: flex;
+    align-items: center;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+}
+.brand img
+{
+    width: 30px;
+    padding: 5px;
+}
+.play
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    flex-direction: column;
+}
+.play input
+{
+    width: 70vw;
+}
+.icons i
+{
+    color: aliceblue;
+    padding: 15px 5px;
+    cursor: pointer;;
+}
+.text
+{
+    display: flex;
+    height: 80vh;
+    margin: 14px 110px;
+    border-radius: 10px;
+    background-color: black;   
+    background-image: url('images/2pac.jpg');
+    background-repeat: no-repeat;
+background-size: 350px 550px;
+    background-position: 70%;
+}
+.text h1
+{
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+}
+.songs
+{
+    display: flex;
+    background-color: antiquewhite;
+    margin: 6px;
+    border-radius: 60px;
+    justify-content: space-around;
+    width: 440px;
+    align-items: center;
+
+}
+.songs img
+{
+    border-radius: 50%;
+    padding: 5px;
+}
+.songsinfo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.playGif
+{
+    
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+.currsong
+{
+    color: white;
+    position:absolute;
+    left: 16vw;
+}
+#play
+{
+    width: 50px;
+}
+i
+{
+padding-left: 3mm;
+cursor: pointer;
+}
